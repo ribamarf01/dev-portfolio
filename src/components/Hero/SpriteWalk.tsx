@@ -14,8 +14,8 @@ const SpriteWalk: FC<SpriteWalkProps> = ({ spriteUrl, initialDirection, mainHeig
   const imageRef = useRef<HTMLImageElement>(null)
 
   useEffect(() => {
-    const height = Math.floor(Math.random() * mainHeight)
-    imageRef.current.style.top = `${height}px`
+    const height = Math.floor(Math.random() * mainHeight) - 200 // Never too low
+    imageRef.current.style.top = `${height + 100}px` // Above header
   })
 
   return (
