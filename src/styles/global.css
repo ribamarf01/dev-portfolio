@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: Alagard;
+  src: url('/font/alagard.ttf')
+}
+
+@font-face {
+  font-family: Pixellari;
+  src: url('/font/Pixellari.ttf');
+}
