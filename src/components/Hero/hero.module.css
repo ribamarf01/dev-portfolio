@@ -1,0 +1,55 @@
+.spriteRightFaced {
+  animation-name: moveRight;
+}
+
+@keyframes moveRight {
+  0% {
+    left: -20%;
+    transform: scaleX(-1);
+  }
+  50% {
+    left: 120%;
+    transform: scaleX(-1);
+  }
+  60% {
+    left: 120%;
+    transform: scaleX(1);
+  }
+  75% {
+    left: 60%;
+    transform: scaleX(1);
+  }
+  100% {
+    left: -20%;
+    transform: scaleX(1);
+  }
+
+}
+
+.spriteLeftFaced {
+  animation: moveLeft 10s linear infinite;
+}
+
+@keyframes moveLeft {
+  0% {
+    right: -20%;
+    transform: scaleX(1);
+  }
+  50% {
+    right: 120%;
+    transform: scaleX(1);
+  }
+  60% {
+    right: 120%;
+    transform: scaleX(-1);
+  }
+  75% {
+    right: 60%;
+    transform: scaleX(-1);
+  }
+  100% {
+    right: -20%;
+    transform: scaleX(-1);
+  }
+
+}
