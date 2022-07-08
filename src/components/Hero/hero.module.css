@@ -79,20 +79,3 @@
     opacity: 1;
   }
 }
-
-.fadeSecond {
-  animation: fadeSecond 5s linear infinite;
-  animation-delay: 2s;
-}
-
-@keyframes fadeSecond {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0
-  }
-}

@@ -5,7 +5,7 @@ const IntroCard = () => {
     <div className='flex flex-col items-center gap-8 px-4 z-20'>
       <div className='relative w-48 h-48'>
         <img className={`absolute w-48 h-48 z-30 rounded-full ${styles.fadeFirst}`} src="https://github.com/ribamarf01.png" alt="My profile picture" />
-        <img className={`absolute w-48 h-48 z-20 rounded-full ${styles.fadeSecond}`} src="/img/me/draw.png" alt="A draw of me" />
+        <img className={`absolute w-48 h-48 z-20 rounded-full`} src="/img/me/draw.png" alt="A draw of me" />
       </div>
       
       <div className={`flex flex-col items-center font-pixellari text-independence text-2xl text-center ${styles.glassEffect} p-4 border border-black rounded-xl`}>
