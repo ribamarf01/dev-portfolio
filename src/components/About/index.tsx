@@ -13,10 +13,6 @@ const About = () => {
           <p>Specialization: Front-End Developer</p>
         </div>
       </div>
-
-      <div className="flex gap-x-8">
-        
-      </div>
       
       <div className="flex md:flex-row flex-col gap-x-8 lg:w-2/3 text-lg">
         <div className="flex flex-col gap-y-4 flex-1 text-justify">
@@ -24,6 +20,8 @@ const About = () => {
           <p>At 15 I started into code in the school, and I found myself doing something that I could do for the rest of my life. I&apos;m a kinda visual person so when I learned HTML and CSS, I imagined myself building a lot of cool stuff and I actually builded those things... made me a lot happy.</p>
         </div>
         <div className="flex flex-col gap-y-4 md:mt-0 mt-8 flex-1">
+          <p><b>Perks: </b>Fast learner, good communication and teamworker</p>
+
           <p><b>Likes:</b> Programming, RPGs, Rock/Indie music and cats.</p>
           <p><b>Dislikes:</b> People who complains 24/7 about the same thing and twitter.</p>
         </div>
