@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import Hero from '@components/Hero'
 import About from '@components/About'
+import Skills from '@components/Skills'
 
 const Home = () => {
   return (<>
@@ -11,6 +12,7 @@ const Home = () => {
 
     <Hero />
     <About />
+    <Skills />
   </>)
 }
 

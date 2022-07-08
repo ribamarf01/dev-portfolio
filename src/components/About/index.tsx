@@ -1,13 +1,13 @@
 const About = () => {
 
-  return <main className="p-8 bg-xiketic font-pixellari text-white flex flex-col">
-    <h1 className="text-4xl text-center pb-4">About me</h1>
+  return <main className="p-8 bg-xiketic font-pixellari text-white flex flex-col gap-y-4">
+    <h1 className="text-4xl text-center">About me</h1>
     <section className="flex flex-col items-center gap-y-8">
       
       <div className="flex md:flex-row flex-col md:gap-y-0 gap-y-4 items-center gap-x-8">
         <img className={`w-48 h-48 z-20 rounded-full`} src="/img/me/draw.png" alt="A draw of me" />
         <div className="text-xl">
-          <p className="text-3xl">Ribamar Filho</p>
+          <p className="text-3xl md:text-start text-center">Ribamar Filho</p>
           <p>Level: 21</p>
           <p>Class: Programmer</p>
           <p>Specialization: Front-End Developer</p>
@@ -21,7 +21,6 @@ const About = () => {
         </div>
         <div className="flex flex-col gap-y-4 md:mt-0 mt-8 flex-1">
           <p><b>Perks: </b>Fast learner, good communication and teamworker</p>
-
           <p><b>Likes:</b> Programming, RPGs, Rock/Indie music and cats.</p>
           <p><b>Dislikes:</b> People who complains 24/7 about the same thing and twitter.</p>
         </div>
