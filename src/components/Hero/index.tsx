@@ -23,7 +23,7 @@ const Hero = () => {
     <SpriteWalk
       spriteUrl="/img/npc/npc-walk-2.gif"
       spriteSpeed={40}
-      initialDirection='right'
+      initialDirection='left'
       mainHeight={mainRef.current ? mainRef.current.offsetHeight : 0}
     />
     {/* Farmgirl */}
@@ -44,21 +44,21 @@ const Hero = () => {
     <SpriteWalk
       spriteUrl="/img/npc/npc-walk-5.gif"
       spriteSpeed={50}
-      initialDirection='right'
+      initialDirection='left'
       mainHeight={mainRef.current ? mainRef.current.offsetHeight : 0}
     />
     {/* Man */}
     <SpriteWalk
       spriteUrl="/img/npc/npc-walk-6.gif"
       spriteSpeed={45}
-      initialDirection='right'
+      initialDirection='left'
       mainHeight={mainRef.current ? mainRef.current.offsetHeight : 0}
     />
     {/* Woman */}
     <SpriteWalk
       spriteUrl="/img/npc/npc-walk-7.gif"
       spriteSpeed={70}
-      initialDirection='right'
+      initialDirection='left'
       mainHeight={mainRef.current ? mainRef.current.offsetHeight : 0}
     />
     {/* Old woman */}

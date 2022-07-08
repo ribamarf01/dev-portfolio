@@ -65,7 +65,7 @@
 }
 
 .fadeFirst {
-  animation: fadeFirst 5s linear infinite;
+  animation: fadeFirst 7s linear infinite;
 }
 
 @keyframes fadeFirst {
