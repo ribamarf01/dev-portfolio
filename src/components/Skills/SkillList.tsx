@@ -39,7 +39,7 @@ const SKILL_LIST: Skill[] = [{
   rating: "Expert"
 }, {
   name: "TailwindCSS",
-  description: "",
+  description: "Tailwind helps me to build fast interfaces with A LOT of pre-build classes, easier to create resposive design with easy to use breakpoints and easy to custom classes in the tailwind.config file (v3.1+ TS support is awesome!). Also has a direct and complete documentation.",
   imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
   rating: "Master"
 }]
