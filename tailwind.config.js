@@ -20,6 +20,14 @@ module.exports = {
       fontFamily: {
         "alagard": ['Alagard', 'Arial', 'sans-serif'],
         "pixellari": ['Pixellari', 'Arial', 'sans-serif']
+      },
+      animation: {
+        shine: "shine 1s"
+      },
+      keyframes: {
+        shine: {
+          "100%": { left: "125%" }
+        }
       }
     },
   },
