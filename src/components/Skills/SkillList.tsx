@@ -52,7 +52,7 @@ const SkillList = () => {
     <div className="flex items-center justify-around w-full text-white gap-x-8">
       <ul className={`flex flex-col w-1/2 border rounded-lg p-4 h-[75vh] overflow-y-auto bg-paper text-independence`}>
         { SKILL_LIST.map((skill, index) => (
-          <li className="flex flex-row items-center border-b border-b-independence py-2 cursor-pointer relative group overflow-hidden" onMouseEnter={() => setContent(skill)} onMouseLeave={() => setContent(null)} key={index} >
+          <li className="flex flex-row flex-none items-center border-b border-b-independence py-2 cursor-pointer relative group overflow-hidden" onMouseEnter={() => setContent(skill)} onMouseLeave={() => setContent(null)} key={index} >
             <img className="h-16 w-16" src={skill.imgUrl} alt={skill.name} />
             <h1 className="w-full ml-4 text-2xl">{skill.name}</h1>
             <h2>{skill.rating}</h2>
