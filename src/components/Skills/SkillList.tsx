@@ -54,7 +54,7 @@ const SkillList = () => {
     else setRevealedIndex(index)
   }
   
-  return <div className="flex items-center md:w-2/3 w-full text-xl select-none">
+  return <div className="flex items-center xl:w-2/3 w-full text-xl select-none">
     <div className="flex items-center justify-around w-full text-white gap-x-8">
       <ul className={`flex flex-col lg:w-1/2 w-full border rounded-lg p-4 h-[75vh] overflow-y-auto bg-paper text-independence`}>
         { SKILL_LIST.map((skill, index) => (<div  key={index}>
@@ -65,11 +65,11 @@ const SkillList = () => {
             <svg className={`w-7 h-7 md:rotate-0  ${revealedIndex === index ? 'rotate-90': ''}`} fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" /></svg>
             <div className="absolute top-0 -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-40 group-hover:animate-shine"></div>
           </li>
-          <p className={`text-justify md:hidden block ${revealedIndex === index ? 'block': 'hidden'}`}>{skill.description}</p>
+          <p className={`text-justify lg:hidden block ${revealedIndex === index ? 'block': 'hidden'}`}>{skill.description}</p>
           <div className="border-b border-b-independence"></div>
           </div>)) }
       </ul>
-      <div className="w-1/2 min-h-[50vh] bg-paper text-independence rounded-lg lg:block hidden">
+      <div className="w-1/2 min-h-[50vh] bg-paper text-independence rounded-lg lg:grid lg:place-items-center hidden">
         { content ? 
           <div className="flex flex-col items-center h-full justify-center p-4">
             <h1 className="text-3xl pb-2">{content.name}</h1>
@@ -79,7 +79,7 @@ const SkillList = () => {
 
           </div> 
           :
-          <h1 className="text-3xl flex items-center text-center justify-center h-full">Hover over to know more about the skill!</h1> 
+          <h1 className="text-3xl text-center">Hover over to know more about the skill!</h1> 
         }
       </div>
     </div>
