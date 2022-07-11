@@ -54,9 +54,9 @@ const SkillList = () => {
     else setRevealedIndex(index)
   }
   
-  return <div className="flex items-center xl:w-2/3 w-full text-xl select-none">
+  return <div className="flex items-center lg:w-2/3 w-full text-xl select-none">
     <div className="flex items-center justify-around w-full text-white gap-x-8">
-      <ul className={`flex flex-col lg:w-1/2 w-full border rounded-lg p-4 h-[75vh] overflow-y-auto bg-paper text-independence`}>
+      <ul className={`flex flex-col lg:w-1/2 md:w-2/3 w-full border rounded-lg p-4 h-[75vh] overflow-y-auto bg-paper text-independence`}>
         { SKILL_LIST.map((skill, index) => (<div  key={index}>
           <li className="flex flex-row flex-none items-center py-2 cursor-pointer relative group overflow-hidden" onClick={() => handleReveal(index)} onMouseEnter={() => setContent(skill)} onMouseLeave={() => setContent(null)} >
             <img className="h-16 w-16" src={skill.imgUrl} alt={skill.name} />
