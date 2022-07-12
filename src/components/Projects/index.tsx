@@ -1,52 +1,54 @@
-interface Projects {
+import ProjectCard from './ProjectCard'
+
+export interface Project {
   name: string
   githubName: string
-  liveLink: string
+  liveLink?: string
   shortDescription: string
   projectImageUrl: string
 }
 
-const MY_PROJECTS: Projects[] = [{
+const MY_PROJECTS: Project[] = [{
   name: "This portfolio",
   githubName: "dev-portfolio",
   liveLink: "dev-portfolio-khaki",
-  projectImageUrl: "",
+  projectImageUrl: "portfolio.png",
   shortDescription: "My front-end dev portfolio"
 }, {
   name: "Know Your Price!",
   githubName: "know-your-price",
   liveLink: "know-your-price",
-  projectImageUrl: "",
+  projectImageUrl: "know-your-price.png",
   shortDescription: "A landing page for a product pricing website (price calculator coming soon)."
 }, {
   name: "Burger Stacker",
   githubName: "burger-stacker",
   liveLink: "burger-stacker",
-  projectImageUrl: "",
+  projectImageUrl: "burger-stacker.png",
   shortDescription: "A small game in React where you create random burgers in 30 seconds to get points."
 }, {
   name: "Valorant Arsenal",
   githubName: "valorant-arsenal-next",
   liveLink: "valorant-arsenal",
-  projectImageUrl: "",
+  projectImageUrl: "valorant-arsenal.png",
   shortDescription: "A collection arsenal maker for valorant skins, consuming from the unofficial ValorantAPI."
 }, {
   name: "Wordle Clone",
   githubName: "wordle-clone-vue",
   liveLink: "wordle-clone-vue",
-  projectImageUrl: "",
+  projectImageUrl: "wordle-clone.gif",
   shortDescription: "Another wordle clone (maked on wordle hype) created in VueJS."
 }, {
   name: "Codepen Clone",
   githubName: "codepen-clone-vue",
   liveLink: "codepen-clone-vue",
-  projectImageUrl: "",
+  projectImageUrl: "codepen-clone.png",
   shortDescription: "A codepen clone with codemirror editor, created in VueJS."
 }, {
   name: "Pokedex!",
   githubName: "pokedex-nuxtjs",
   liveLink: "pokedex-nuxtjs",
-  projectImageUrl: "",
+  projectImageUrl: "pokedex.png",
   shortDescription: "A pokedex that consumes from the PokeAPI to show pokemon cards and each pokemon details."
 }
 // , {
@@ -59,13 +61,15 @@ const MY_PROJECTS: Projects[] = [{
 ]
 
 const Projects = () => {
-
-  const GITHUB_LINK = repo => `https://github.com/ribamarf01/${repo}`
-  const DOMAIN = name => `https://${name}.vercel.app`
   
   return <div className="flex flex-col items-center p-8 bg-xiketic text-white font-pixellari gap-y-4">
     <h1 className="text-4xl">Projects</h1>
-    div
+    <div className="flex justify-center md:w-2/3 w-full items-center h-[64px] bg-grass rounded-xl mb-8">
+      <img src="/img/me/spell.gif" alt="A gif of my sprite opening the arms" />
+    </div>
+    <div className="grid justify-center items-start place-items-center 2xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-8 md:w-2/3 w-full">
+      { MY_PROJECTS.map(project => <ProjectCard project={project} />) }
+    </div>
   </div>  
 
 }
