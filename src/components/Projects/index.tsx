@@ -68,7 +68,7 @@ const Projects = () => {
       <img src="/img/me/spell.gif" alt="A gif of my sprite opening the arms" />
     </div>
     <div className="grid justify-center items-start place-items-center 2xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-8 md:w-2/3 w-full">
-      { MY_PROJECTS.map(project => <ProjectCard project={project} />) }
+      { MY_PROJECTS.map((project, index) => <ProjectCard key={index} project={project} />) }
     </div>
   </div>  
 
