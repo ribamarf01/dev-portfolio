@@ -31,7 +31,7 @@ const Contact = () => {
       email: form.email,
       subject: form.subject,
       message: form.message
-    }, 'L7v95KUvrXilSDXLi')
+    }, process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY)
       .then(res => {
         setForm(EMPTY_FORM)
         toast.success("Thank you for the feedback!", {
@@ -75,7 +75,7 @@ const Contact = () => {
       </a>
     </div>
 
-    <form className='flex flex-col items-center w-full mx-4 md:w-1/3' onSubmit={sendMessage}>
+    <form className='flex flex-col items-center w-full mx-4 lg:w-2/4 md:w-2/3' onSubmit={sendMessage}>
 
       <h2 className="text-3xl">Or send a message direct to my e-mail:</h2>
 
