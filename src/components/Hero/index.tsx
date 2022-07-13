@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 
-import SpriteWalk from "./SpriteWalk"
 import IntroCard from './IntroCard'
+import SpriteWalk from "./SpriteWalk"
 
 const Hero = () => {
 
@@ -71,7 +71,7 @@ const Hero = () => {
     {/* Blonde child */}
   </section>
 
-  return <main className="min-h-screen w-full bg-grass relative overflow-hidden flex items-center justify-center" ref={mainRef}>
+  return <main className="min-h-screen w-full bg-grass relative overflow-hidden flex items-center justify-center" ref={mainRef} id="start">
     <IntroCard />
     {walkNpcs ?
       Sprites

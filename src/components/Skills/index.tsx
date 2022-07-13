@@ -2,7 +2,7 @@ import SkillList from "./SkillList"
 
 const Skills = () => {
 
-  return <main className="flex flex-col items-center p-8 bg-xiketic font-pixellari text-white">
+  return <main className="flex flex-col items-center p-8 bg-xiketic font-pixellari text-white" id="skills">
     <h1 className="text-4xl text-center pb-4">Skills</h1>
     <div className="flex justify-around md:w-2/3 w-full h-[64px] bg-grass rounded-xl mb-8 ">
       <img className="w-[64px] h-[64px]" src="/img/me/bow.gif" alt="My avatar shooting from a bow gif" />

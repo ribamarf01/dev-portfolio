@@ -57,7 +57,7 @@ const Contact = () => {
       })
   }
 
-  return <div className="flex flex-col items-center p-8 gap-y-8 bg-xiketic font-pixellari text-white">
+  return <div className="flex flex-col items-center p-8 gap-y-8 bg-xiketic font-pixellari text-white" id="contact">
     <h1 className="text-4xl">Contact</h1>
     <div className="bg-grass flex justify-center items-center md:w-2/3 w-full h-[64px] rounded-xl">
       <img src="/img/me/curved.png" alt="My model sprite curved" />

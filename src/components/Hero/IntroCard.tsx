@@ -13,10 +13,10 @@ const IntroCard = () => {
         <p className="text-3xl">Hi!</p>
         <p>My name is Ribamar :)</p>
         <p>I&apos;m a Front-End developer, wanna see my portfolio?</p>
-        <div className='flex items-center justify-around mt-4 bg-play-button border-2 border-black rounded-3xl py-1 px-8 cursor-pointer hover:bg-play-button-active transition-colors duration-300'>
+        <a href='#about' className='flex items-center justify-around mt-4 bg-play-button border-2 border-black rounded-3xl py-1 px-8 cursor-pointer hover:bg-play-button-active transition-colors duration-300'>
           <img className='h-10 w-10' src="/img/play-icon.png" alt="Play icon" />
           <p className='text-3xl text-white'>Start</p>
-        </div>
+        </a>
       </div>
     </div>
   )

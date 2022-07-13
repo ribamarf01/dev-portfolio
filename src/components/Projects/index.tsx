@@ -62,7 +62,7 @@ const MY_PROJECTS: Project[] = [{
 
 const Projects = () => {
   
-  return <div className="flex flex-col items-center p-8 bg-xiketic text-white font-pixellari gap-y-4">
+  return <div className="flex flex-col items-center p-8 bg-xiketic text-white font-pixellari gap-y-4" id="projects">
     <h1 className="text-4xl">Projects</h1>
     <div className="flex justify-center md:w-2/3 w-full items-center h-[64px] bg-grass rounded-xl mb-8">
       <img src="/img/me/spell.gif" alt="A gif of my sprite opening the arms" />
