@@ -9,7 +9,7 @@ interface ProjectCardProps {
 const ProjectCard: FC<ProjectCardProps> = ({ project: { name, githubName, liveLink, projectImageUrl, shortDescription } }) => {
 
   const GITHUB_LINK = repo => `https://github.com/ribamarf01/${repo}`
-  const DOMAIN = name => `https://${name}.vercel.app`
+  const DOMAIN = name => `https://${name}.ribamarf01.dev`
 
   return <div className='border group relative'>
     <img className='inset-0' src={`/img/projects/${projectImageUrl}`} alt={name} />
