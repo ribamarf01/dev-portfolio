@@ -11,7 +11,7 @@ export interface Project {
 const MY_PROJECTS: Project[] = [{
   name: "This portfolio",
   githubName: "dev-portfolio",
-  liveLink: "dev-portfolio-khaki",
+  liveLink: "",
   projectImageUrl: "portfolio.png",
   shortDescription: "My front-end dev portfolio"
 }, {
