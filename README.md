@@ -4,7 +4,7 @@
 
 - 😎 A webpage showing my projects and skills as a dev.
 - 👨‍💻 Mainly uses React and Next. TailwindCSS for the styling and responsivity.
-- 🔗 You can find this project live on: https://dev-portfolio-ribamarf01.vercel.app (Looking for a domain).
+- 🔗 You can find this project live on: https://ribamarf01.dev/.
 
 ## 🔥 Techs used
 
