@@ -47,7 +47,7 @@ const MY_PROJECTS: Project[] = [{
 }, {
   name: "Pokedex!",
   githubName: "pokedex-nuxtjs",
-  liveLink: "pokedex-nuxtjs",
+  liveLink: "pokedex",
   projectImageUrl: "pokedex.png",
   shortDescription: "A pokedex that consumes from the PokeAPI to show pokemon cards and each pokemon details."
 }
