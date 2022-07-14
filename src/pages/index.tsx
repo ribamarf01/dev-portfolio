@@ -10,6 +10,10 @@ const Home = () => {
   return (<>
     <Head>
       <title>Ribamar Filho - Portfolio</title>
+      <meta charSet='UTF-8' />
+      <meta name='description' content='My web developer portfolio' />
+      <meta name='author' content='Ribamar Filho' />
+      <meta name='keywords' content='HTML, CSS, JavaScript, TypeScript, Front End, Portfolio' />
     </Head>
 
     <Hero />
