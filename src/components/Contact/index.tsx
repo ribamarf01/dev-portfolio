@@ -75,21 +75,21 @@ const Contact = () => {
       </a>
     </div>
 
-    <form className='flex flex-col items-center w-full mx-4 lg:w-2/4 md:w-2/3' onSubmit={sendMessage}>
+    <form className='flex flex-col items-center mx-4 lg:w-2/4 md:w-2/3 w-full' onSubmit={sendMessage}>
 
       <h2 className="text-3xl">Or send a message direct to my e-mail:</h2>
 
       <label className='text-xl py-2 text-alice-blue' htmlFor="name">Name:</label>
-      <input className='text-alice-blue text-lg bg-transparent border-maya-blue border rounded outline-none text-center p-2 w-2/3' id='name' value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} placeholder='Your name' name='name' type="text" />
+      <input className='text-alice-blue text-lg bg-transparent border-maya-blue border rounded outline-none text-center p-2 md:w-2/3 w-full' id='name' value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} placeholder='Your name' name='name' type="text" />
 
       <label className='text-xl py-2 text-alice-blue' htmlFor="email">E-mail:</label>
-      <input className='text-alice-blue text-lg bg-transparent border-maya-blue border rounded outline-none text-center p-2 w-2/3' id='email' value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} placeholder='Your e-mail' name='email' type="email" />
+      <input className='text-alice-blue text-lg bg-transparent border-maya-blue border rounded outline-none text-center p-2 md:w-2/3 w-full' id='email' value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} placeholder='Your e-mail' name='email' type="email" />
 
       <label className='text-xl py-2 text-alice-blue' htmlFor="subject">Subject:</label>
-      <input className='text-alice-blue text-lg bg-transparent border-maya-blue border rounded outline-none text-center p-2 w-2/3' id='subject' value={form.subject} onChange={e => setForm({ ...form, subject: e.target.value })} placeholder='Subject' name='subject' type="text" />
+      <input className='text-alice-blue text-lg bg-transparent border-maya-blue border rounded outline-none text-center p-2 md:w-2/3 w-full' id='subject' value={form.subject} onChange={e => setForm({ ...form, subject: e.target.value })} placeholder='Subject' name='subject' type="text" />
 
       <label className='text-xl py-2 text-alice-blue' htmlFor="message">Message:</label>
-      <textarea className='text-alice-blue text-lg bg-transparent border-maya-blue border rounded outline-none text-center p-2 w-2/3 resize-none h-36' id='message' value={form.message} onChange={e => setForm({ ...form, message: e.target.value })} placeholder='Message' name='message' />
+      <textarea className='text-alice-blue text-lg bg-transparent border-maya-blue border rounded outline-none text-center p-2 md:w-2/3 w-full resize-none h-36' id='message' value={form.message} onChange={e => setForm({ ...form, message: e.target.value })} placeholder='Message' name='message' />
 
       <div className="py-2"></div>
 
