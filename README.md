@@ -2,7 +2,7 @@
 
 ## 👀 Project Overview
 
-- 😎 A webpage showing my projects and skills as a dev.
+- 😎 A webpage showing my projects and skills as a dev. I have the idea to build based in one of the things that me happy besides programming, that is RPGs. 😅
 - 👨‍💻 Mainly uses React and Next. TailwindCSS for the styling and responsivity.
 - 🔗 You can find this project live on: https://ribamarf01.dev/.
 
