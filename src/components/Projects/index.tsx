@@ -35,13 +35,13 @@ const MY_PROJECTS: Project[] = [{
 }, {
   name: "Wordle Clone",
   githubName: "wordle-clone-vue",
-  liveLink: "wordle-clone-vue",
+  liveLink: "wordle-clone",
   projectImageUrl: "wordle-clone.gif",
   shortDescription: "Another wordle clone (maked on wordle hype) created in VueJS."
 }, {
   name: "Codepen Clone",
   githubName: "codepen-clone-vue",
-  liveLink: "codepen-clone-vue",
+  liveLink: "codepen-clone",
   projectImageUrl: "codepen-clone.png",
   shortDescription: "A codepen clone with codemirror editor, created in VueJS."
 }, {
