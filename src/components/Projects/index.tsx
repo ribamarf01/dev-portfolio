@@ -50,15 +50,13 @@ const MY_PROJECTS: Project[] = [{
   liveLink: "pokedex",
   projectImageUrl: "pokedex.png",
   shortDescription: "A pokedex that consumes from the PokeAPI to show pokemon cards and each pokemon details."
-}
-// , {
-//   name: "Git Dex",
-//   githubName: "gitdex-vuejs",
-//   liveLink: "gitdex-vuejs",
-//   projectImageUrl: "",
-//   shortDescription: "A small app that consumes Github API to get some info about the dev."
-// }
-]
+}, {
+  name: "Gitdex",
+  githubName: "gitdex-v2",
+  liveLink: "gitdex",
+  projectImageUrl: "gitdex.png",
+  shortDescription: "A small app that consumes Github API to get some info about the dev."
+}]
 
 const Projects = () => {
   
