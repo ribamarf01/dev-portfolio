@@ -11,7 +11,7 @@ export interface Project {
 const MY_PROJECTS: Project[] = [{
   name: "This portfolio",
   githubName: "dev-portfolio",
-  liveLink: "",
+  liveLink: "www",
   projectImageUrl: "portfolio.png",
   shortDescription: "My front-end dev portfolio"
 }, {
@@ -56,6 +56,12 @@ const MY_PROJECTS: Project[] = [{
   liveLink: "gitdex",
   projectImageUrl: "gitdex.png",
   shortDescription: "A small app that consumes Github API to get some info about the dev."
+}, {
+  name: "Pomodoro Timer",
+  githubName: "pomodoro-timer",
+  liveLink: "pomo-timer",
+  projectImageUrl: "pomotimer.png",
+  shortDescription: "A app to help with pomodoro study cycles."
 }]
 
 const Projects = () => {
